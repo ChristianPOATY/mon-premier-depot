@@ -1,0 +1,37 @@
+[draggable=true] {
+-moz-user-select: none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+cursor:move;
+}
+[draggable=false] {
+cursor:no-drop;
+}
+p[draggable] {
+display:inline-block;
+vertical-align:top;
+height:55px;
+background:#A9C832;
+padding:10px;
+margin:0;
+color:white;
+min-width:55px;
+}
+#drop {
+height: 200px;
+width: 100%;
+border: 3px dashed #bbb;
+padding: 1em;
+margin-bottom:1em;
+}
+#drop:hover {
+background:#e0e6e9;
+}
+.deposezmoi {
+background:#b5e766;
+border: 3px dashed #79a633;
+}
+.wrap img {
+max-width:100%;
+}
